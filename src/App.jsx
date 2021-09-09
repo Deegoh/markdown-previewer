@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import marked from 'marked';
 
 import Editor from './compenents/editor';
-import DEFAULT_TEXT from './const';
+import DEFAULT_TEXT from "./const";
 
 function App() {
   const [content, setContent] = useState(DEFAULT_TEXT);
